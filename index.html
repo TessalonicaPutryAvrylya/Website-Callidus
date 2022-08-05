@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <title>Callidus</title>
 
@@ -23,7 +24,7 @@
   <body>
     
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent position-fixed w-100">
+    <nav class="navbar navbar-expand-lg bg-transparent position-fixed w-100">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="scr/Callidus.png" alt="" width="61" height="61">
@@ -32,7 +33,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-
           <ul class="navbar-nav mx-auto">
             <li class="nav- mx-2">
               <a class="nav-link active" aria-current="page" href="#">BERANDA</a>
@@ -46,8 +46,7 @@
             <li class="nav- mx-2">
               <a class="nav-link" href="#">KONTAK</a>
             </li>
-          </ul>
-          
+          </ul>    
           <div class="#">
             <button class="button-primary">Daftar</button>
             <button class="button-secondary">Masuk</button>
@@ -70,7 +69,7 @@
           </div>
         </div>
 
-        <img src="scr/beranda.png" alt="" class="position-absolute end-0 bottom-0 img-hero" width="816" height="768">
+        <img src="scr/beranda.png" alt="" class="position-absolute end-0 bottom-0 top-0 img-hero" width="816" height="768">
       </div>
     </section>
     <!-- akhir hero section -->
@@ -89,10 +88,12 @@
           <div class="col-md-1"></div>
           <div class="col-md-5">
             <div class="card-pelajar">
+              <a href="pelajar.html">
               <div class="img">                
                 <img src="scr/Pelajar.png" alt="" width="211" height="250">
               </div>
                 <h4>Pelajar</h4>
+              </a>
             </div>
           </div>
           <div class="col-md-5">
@@ -176,6 +177,8 @@
     </section>
     <!-- akhir footer -->
 
+
+    <script src="js/script.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
