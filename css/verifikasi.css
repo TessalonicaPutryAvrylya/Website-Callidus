@@ -1,0 +1,95 @@
+:root {
+    --pr-color: #1f8473;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #d1fff7;
+  }
+  
+  /* navbar */
+  .navbar {
+    z-index: 3;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+  }
+  
+  .nav-link.active {
+    font-weight: 700;
+  }
+  
+  .button-primary {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+  
+    border-radius: 5px;
+  }
+
+  /* Foto */
+#foto {
+    padding-top: 80px;
+}
+
+h1 {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #1f8473;
+  }
+
+#kmbl{
+    padding-top: 20px;
+}
+
+  .btn {
+    background-color: #1f8473;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .button-lg-primary {
+    margin-top: 25px;
+    width: 237px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(160deg, #23c7ac, #155c50);
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in;
+  }
+  
+  .button-lg-primary:hover {
+    margin-top: 25px;
+    width: 237px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f8473;
+    background-color: linear-gradient(160deg, #ffffff, #fcfcfc);
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in;
+  }
